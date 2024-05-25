@@ -1,0 +1,54 @@
+$text-blue: #1C1B20;
+$text-placeholder: #738392;
+$text-white: #fff;
+
+
+
+%weight-100{
+    font-family: 'e-Ukraine-Thin';
+    font-weight: 100 ;
+    font-style: normal; 
+}
+%weight-200{
+    font-family: 'e-Ukraine-UltraLight';
+    font-weight: 200;
+    font-style: normal; 
+}
+%weight-300{
+    font-family: 'e-Ukraine-Light';
+    font-weight: 300 ;  
+    font-style: normal;
+}
+%weight-400{
+    font-family: 'e-Ukraine-Regular';
+    font-weight: 400 ; 
+    font-style: normal;
+}
+%weight-500{
+    font-family: 'e-Ukraine-Medium';
+    font-weight: 500 ;
+    font-style: normal;
+}
+%weight-700{
+    font-family: 'e-Ukraine-Bold';
+    font-weight: 700 ;
+    font-style: normal; 
+}
+%btn-dark{
+    padding: 12px 20px;
+    border-radius: 8px;
+    color: $text-white;
+    background: #1C1B20;       
+    font-size:14px;
+    border: none; 
+}
+%btn-white{
+    padding: 12px 20px;
+    border-radius: 8px;
+    color: $text-blue;
+    @extend %weight-400;
+    border: 1px solid rgba(115, 131, 146, 0.50);
+    background: #ffffff;       
+    font-size:14px; 
+    line-height: 130%; 
+}
